@@ -1,10 +1,10 @@
-name: lando-wordpress
+name: lando-lamp-wordpress
 recipe: lamp
 config:
   webroot: public
 proxy:
   appserver:
-    - lando-wordpress.lndo.site
+    - lando-lamp-wordpress.lndo.site
 services:
   appserver:
     config: {}
